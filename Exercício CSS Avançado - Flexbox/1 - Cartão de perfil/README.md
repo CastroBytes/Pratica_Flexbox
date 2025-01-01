@@ -11,9 +11,9 @@
 ---
 ### Layout
 **Desktop/mobile**
-<p style="height:400px;" align="center">
-    <img src="./src/img/layout.gif">
-</p>
 
+<p align="center">
+<img src="./src/img/layout.gif"  width="700"/>
+</p>
 
 
