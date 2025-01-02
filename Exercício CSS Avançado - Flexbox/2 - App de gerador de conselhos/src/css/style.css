@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Manrope", serif; 
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    background-color: hsl(217, 19%, 24%);
+    width: 360px;
+    height: 215px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cabecalho{
+    color: hsl(150, 100%, 66%);
+    font-size: 11px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.caixa-div{
+    width: 300px;
+    height: 78px;
+    padding-bottom: 101px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.mensagem{
+    color: hsl(193, 38%, 86%);;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.botao{
+    transform: translateY(-15px);
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border-style: none;
+    background-color: hsl(150, 100%, 66%);
+}
+.botao:hover{
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 15px hsl(150, 100%, 66%);
+}
+ .botao .fa-dice-five{
+    font-size: 20px;
+}
+
+.fa-pause{
+    color:hsl(193, 38%, 86%);;
+    position: relative;
+    top: -23px;
+}

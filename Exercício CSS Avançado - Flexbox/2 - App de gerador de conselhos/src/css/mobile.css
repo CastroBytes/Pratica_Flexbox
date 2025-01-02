@@ -1,0 +1,30 @@
+@media(max-width: 378px){
+    main{
+        height: 300px;
+        width: 340px;
+    }
+
+    .mensagem{
+        font-size: 24px;
+    }
+
+    .caixa-div{
+        height: 170px;
+
+    }
+
+    .botao{
+        width: 60px;
+        height: 60px;
+    }
+
+    .botao .fa-dice-five{
+        font-size: 28px;
+        margin: auto;
+    }
+
+    .fa-pause{
+        font-size: 25px;
+        transform: translateY(-5px);
+    }
+}
