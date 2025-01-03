@@ -1,0 +1,34 @@
+@media (max-width: 841px){
+  header{
+    flex-direction: column;
+    padding: 47px 71px;
+  }
+
+  .header{
+    gap: 8;
+    font-size: 40px;
+  }
+
+  ul{
+    margin-top: 70px;
+    flex-direction: column;
+    gap: 45px;
+    align-items: center;
+    justify-content: stretch;
+  }
+
+  a{
+    font-size: 40px;
+    padding: 17px 30px;
+    transition: 0.1s ease-in-out;
+  }
+
+  ul li:last-child{
+    margin-top: 20px;
+  }
+
+  .botao{
+    font-size: 18px;
+    padding: 15px 22px; 
+  }
+}   

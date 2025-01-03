@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 45px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 800;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    gap: 23px;
+}
+
+a{
+    font-size: 17px;
+    padding: 11px 7px;
+    transition: 0.2s ease-in-out;
+}
+
+.botao{
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+    background-color: #5BC241;
+    padding: 10px 21px;
+    border-radius: 10px;
+}
+
+a:hover:not(.botao,.header){
+    background-color: #5BC241;
+    color: white;
+}
