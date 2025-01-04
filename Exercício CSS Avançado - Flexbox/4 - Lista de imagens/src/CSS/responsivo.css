@@ -1,0 +1,50 @@
+
+@media (max-width: 844px){
+    .main{
+        padding: 45px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    ul.exposição{
+        flex-direction: column;
+        gap: 1px;
+    }
+    
+    .exposição li{
+        padding: 14px 22px;
+    }
+}
+
+
+/* ----COMPUTER---- */
+
+@media (max-width: 1270px){
+    .exposição{
+        flex-wrap: wrap;
+        max-width: 700px;
+        margin: auto;
+    }
+    .main{
+        padding: 21px;
+    }
+}
+
+
+@media (min-width: 1363px){
+    .main{
+        padding: 8.8rem 2.1rem;
+    }
+}
+
+@media (min-width: 1451px){
+    ul.exposição{
+        width: 1399px;
+    }
+    
+    .main{
+        display: flex;
+        justify-content: center;
+    }
+}
+
