@@ -19,14 +19,13 @@ body{
 
 
 /* ---- Geral ---- */
-.cabecalho div, .principal div, .rodape div{
-    border-radius: 20px;
-}
-
 .cabecalho, .principal, .rodape{
     flex: 1;
     display: flex;
     flex-direction: row;
+}
+.cabecalho div, .principal div, .rodape div{
+    border-radius: 20px;
 }
 
 .cabecalho div:nth-child(1), .principal div:nth-child(1), .rodape div:nth-child(1){
