@@ -4,5 +4,5 @@
 Pc e mobile.
 
 <p align="center">
-<img src="./src/img/responsivo.gif"  width="650"/>
+<img src="./src/img/responsivo.gif"  width="600"/>
 </p>
