@@ -1,0 +1,159 @@
+/* ------------------ARARA-AZUL-------------------- */
+
+body > .header-azul{
+    background-color: rgba(45, 79, 99, 0.3);
+}
+
+.header-main-azul > h1{
+    background-color: #244988;
+}
+
+.select-options h2{
+    background-color: #353c46;
+}
+
+
+.more-information-azul .title-information{
+    background-color:  #365385;
+}
+
+
+.button-azul{
+    border: 1px solid #0692ea;
+    color: #0692ea;
+}
+
+.button-azul:hover{
+    background-color:#3ab6ab;
+    color: white;
+}
+
+
+.footer-azul{
+   background-color: #353c46;
+   margin-bottom: 5px;
+}
+
+.footer-azul p{
+   color: #ffffff;
+}
+
+/* -----------------CAPIVARA------------------------ */
+
+body > .header-capivara{
+    background-color: rgba(135, 74, 42, 0.4);
+}
+
+.header-main-capivara > h1{
+    background-color: rgb(185, 119, 90);
+}
+
+.select-options-capivara h2{
+    background-color:#443f38;
+}
+
+
+.more-information-capivara .title-information{
+    background-color: rgb(156, 103, 80);
+}
+
+
+.button-capivara{
+    border: 1px solid #aa663c;
+    color: #aa663c;
+}
+
+.button-capivara:hover{
+    background-color: #f19346;
+    color: white;
+}
+
+
+.footer-capivara{
+   background-color: #443f38;
+   margin-bottom: 5px;
+}
+
+.footer-capivara p{
+   color: #ffffff;
+}
+
+/* -----------------ONÇA----------------------- */
+
+body.header-onca{
+    background-color: rgba(131, 104, 90, 0.3);
+}
+
+.header-main-onca > h1{
+    background-color: #745f53;
+}
+
+.select-options-onca h2{
+    background-color: #363636;
+}
+
+
+.more-information-onca .title-information{
+    background-color: #9c7350;
+}
+
+
+.button-onca{
+    border: 1px solid #ec750c;
+    color: #ec750c;
+}
+
+.button-onca:hover{
+    background-color: #f58c30;
+    color: white;
+}
+
+
+.footer-onca{
+   background-color: #363636;
+}
+
+.footer-onca p{
+   color: #ffffff;
+}
+
+
+/* -----------------TUCANO-------------------- */
+
+body > .header-tucano{
+    background-color: rgba(117, 103, 132, 0.4);
+}
+
+.header-main-tucano > h1{
+    background-color: #b34258;
+}
+
+.select-options-tucano h2{
+    background-color: #473939;
+}
+
+
+.more-information-tucano .title-information{
+    background-color: #b45467;
+}
+
+
+.button-tucano{
+    border: 1px solid #d62511;
+    color: #d62511;
+}
+
+.button-tucano:hover{
+    background-color: #f05a6e;
+    color: white;
+}
+
+
+.footer-tucano{
+   background-color: #363636;
+   margin-bottom: 5px;
+}
+
+.footer-tucano p{
+   color: #ffffff;
+}

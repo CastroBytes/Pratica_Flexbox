@@ -1,0 +1,242 @@
+img{
+    width: 100%;
+}
+
+body{
+    height: auto;
+    overflow-x: hidden;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Public Sans", serif;
+}
+
+body > .header{
+    position: relative;
+    background-color: rgba(131, 104, 90, 0.3);
+    width: 100vw;
+    height: 149px;
+    display: flex;
+}
+body > .h-principal{
+    background-color: rgba(105, 120, 28, 0.3);
+}
+.video-fundo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.header > .logo{
+    margin: auto;
+    width: 200px;
+}
+
+
+.header-main > h1{
+    padding: 10px;
+    font-size: 15px;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    background-color: #488648;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.section-main{
+    display: flex;
+    margin-top: 15px;
+    width: 711px;
+    height: 329px;
+}
+
+.section-main .description-image{
+    border: 1px solid #363636;
+    padding: 30px;
+}
+.description-image h2{
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.section-main .lateral-image{
+    width: 288px;
+    height: 329px;
+}
+
+/* ----------Caixa de seleção------------------------- */
+
+nav.select-options{
+    box-sizing: border-box;
+    border: 1px solid #363636;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 711px;
+    height: 199px;
+}
+
+.select-options h2{
+    border-bottom: 1px solid #969595;
+    background-color: #3e4930;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+
+
+nav > .options-animals{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.options-animals > li{
+    display: flex;
+    gap: 19px;
+    height: 94px;
+    width: 110px;
+}
+
+.options-animals> li > a{
+    margin: auto;
+    height: 74px;
+    width: 90px;
+    
+    border-radius: 10px;
+    filter: saturate(0);
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+}
+
+.options-animals> li > a:hover{
+    height: 94px;
+    width: 110px;
+    filter: none;
+    opacity: 1;
+}
+
+.options-animals> li > .selecionado{
+    opacity: 0.9;
+}
+.options-animals> li > .selecionado:hover{
+    height: 74px;
+    width: 90px;
+    filter: saturate(0);
+    opacity: 0.9;
+    cursor: default;
+}
+
+li > .onça-pintada{
+    background-image: url('../img/animais/onça-pintada.jpg');
+    background-size: cover;
+}
+li > .capivara{
+    background-image: url('../img/animais/capivara.png');
+    background-size: cover;
+}
+li > .tucano{
+    background-image: url('../img/animais/tucano.jpg');
+    background-size: cover;
+}
+li > .arara-azul{
+    background-image: url('../img/animais/arara-azul.jpg');
+    background-size: cover;
+}
+
+/* ----------Mais informações----------------- */
+
+
+section.more-information{
+    box-sizing: border-box;
+    border: 1px solid #363636;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 711px;
+    min-height: 200px;
+    max-height: auto;
+}
+
+.more-information .title-information{
+    border-bottom: 1px solid #969595;
+    background-color: #9c7350;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.more-information .links{
+    display: flex;
+    margin: auto;
+}
+
+.links li{
+    min-height: 160px;
+    max-height: auto;
+    width: 345px;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.links > li > a{
+    margin-top: auto;
+
+}
+
+.links p{
+    font-size: 14px;
+}
+
+.links h3{
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+button{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #f3821f;
+    color: #f3821f;
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #f3821f;
+    color: white;
+}
+
+/* ----------Footer---------- */
+.footer{
+    border-radius: 0 0 5px 5px;
+    border: 1px solid;
+    width: 709px;
+    height: 40px;
+    display: flex;
+    margin-bottom: 5px;
+    background-color:#343a2c;
+}
+
+.footer p{
+    margin: auto;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 100;
+}
