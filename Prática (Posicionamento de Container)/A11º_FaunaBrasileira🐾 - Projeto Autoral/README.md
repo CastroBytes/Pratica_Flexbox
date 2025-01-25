@@ -34,5 +34,5 @@ O que mais me tomou tempo neste projeto não foi na parte do desenvolvimento em 
  Se executar o código é esse layout que vai obter no seu navegador:
 ```
 <p align="center">
-<img src="./src/img/readme-image/Presentation-fauna-institute.gif"  width="750"/>
+<img src="./src/img/readme-image/Presentation-fauna-institute.gif"  width="800"/>
 </p>
