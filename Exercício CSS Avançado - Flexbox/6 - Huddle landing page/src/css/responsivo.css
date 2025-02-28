@@ -1,0 +1,81 @@
+/* -----------Imagem de fundo---------------- */
+
+@media (max-width: 1366px) {
+    body {
+        background-image: url("../images/bg-desktop.svg");
+        background-size: 90%;
+        background-position: 5% 3%;
+    }
+}
+@media (max-width: 1280px) {
+    body {
+        background-image: url("../images/bg-desktop.svg");
+        background-size: 110%;
+        background-position: 100% -45%;
+    }
+}
+
+@media (max-width: 1278px) {
+    body {
+      background-image: url("../images/bg-desktop.svg");
+      background-size: cover;
+      background-position: center top;
+    }
+  
+}
+
+
+/* --------Versão Mobile------- */
+
+@media (max-width: 500px) {
+  body {
+    background-image: url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 104%;
+    background-position: -6% 0%;
+    padding: 44px 33px;
+    padding-left: 47px;
+  }
+
+  header {
+    margin-top: 0px;
+    margin-bottom: 77px;
+  }
+  body > header > .logo > img {
+    width: 165px;
+  }
+
+  main {
+    flex-direction: column;
+    text-align: center;
+    gap: 17px;
+  }
+
+  main > .hero-information {
+    font-size: 21px;
+  }
+
+  figure > img {
+    width: 100%;
+  }
+  .hero-information p {
+    line-height: 30px;
+  }
+
+  .hero-information > h1 {
+    font-size: 31px;
+    margin-top: 60px;
+    margin-bottom: 23px;
+  }
+
+  .hero-information > a > button {
+    width: 264px;
+    margin-left: 5px;
+    margin-top: 16px;
+  }
+
+  footer {
+    justify-content: center;
+    margin-top: 317px;
+  }
+}
